@@ -20,7 +20,7 @@ hr 																		{ display:block; height:1px; border:0; border-top:1px solid
 input, select				 											{ vertical-align:middle;}	
 
 
-body                            {width: 100%; margin: 0; padding: 0; position: relative; font-family: 'Voltaire', sans-serif;}
+body                            {width: 100%; margin: 0; padding: 0; position: relative; font-family: 'Oswald', sans-serif;}
 .wrap                           {width: 1200px; margin: 0 auto; padding: 0; position: relative; display: block;}
 .inline                         {width: 100%; margin: 0; padding: 0; position: relative; display: inline-block;}
 .reset                          {clear: both;}
@@ -46,7 +46,7 @@ nav.menup ul li.active          {border-bottom: 3px solid red;}
 .banner .arrow_right            { right: 50px;}
 .banner .description            { position: absolute; top: 100px; left: 600px; background-color: rgb(0 0 0 / 50%); padding: 60px 100px; border-radius: 10px; color: #fff; text-align: center;}
 .banner .description h1         { font-size: 50px;}
-.banner .description h2         { font-size: 20px; margin: 15px 0 60px; font-family: 'Raleway', sans-serif; font-weight: 400;}
+.banner .description h2         { font-size: 20px; margin: 15px 0 60px; font-family: 'Open Sans Condensed', sans-serif; font-weight: 400;}
 .banner .description a          { color: #fff; background-color: #ff0000; padding: 15px;}
 
 nav.menu_sephora                           {}
@@ -54,14 +54,14 @@ nav.menu_sephora ul                        { font-size: 30px;}
 nav.menu_sephora ul li                     { display: inline-block; margin: 0 15px 0 0;}
 nav.menu_sephora ul li::after              { content: "/"; margin: 0 0 0 15px;}
 nav.menu_sephora ul li:last-child::after   { content: "";}
-nav.menu_sephora ul li.active              { color: red;}
+nav.menu_sephora ul li.active              { color: blue;}
 
 .nuova_collezione                            { width: 100%; position: relative; margin: 15px 0 0 0; padding: 0;}
 .nuova_collezione .novità                    { float: right; margin: 0 150px 0 0;}
 .nuova_collezione .novità img                { width: 400px; height: 400px; margin-top: 50px;}
 .nuova_collezione .novità img:last-child     { margin: 0 0 0 0;}
 .nuova_collezione .novità h1                 { margin: 10px 0; font-size: 20px;}
-.nuova_collezione .novità p                  { font-family: 'Raleway', sans-serif; font-weight: 400; margin: 0 0 10px 0; font-size: 16px;}
+.nuova_collezione .novità p                  { font-family: 'Open Sans Condensed', sans-serif; font-weight: 400; margin: 0 0 10px 0; font-size: 16px;}
 .nuova_collezione .novità div                { float: left; background-color: black; color: red; padding:  5px 10px; margin-bottom: 50px;}
 .nuova_collezione .novità div:last-child     { float: right;}
 
