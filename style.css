@@ -1,0 +1,110 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, 
+kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, 
+li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, 
+tr, th, td, article, aside, canvas, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section, summary, time, mark, audio, video 	{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body 																	{ line-height:1; }
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section 										{ display:block;}
+nav ul 																	{ list-style:none;}
+blockquote, q 															{ quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after					{ content:''; content:none;}
+a 																		{ margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; text-decoration:none; color:#4A4A4A; text-rendering: geometricPrecision;}
+ins 																	{ background-color:#ff9; color:#000; text-decoration:none;}
+mark 																	{ background-color:#ff9; color:#000; font-style:italic; font-weight:bold;}
+del 																	{ text-decoration: line-through;}
+abbr[title], dfn[title] 												{ border-bottom:1px dotted; cursor:help;}
+table 																	{ border-collapse:collapse; border-spacing:0;}
+hr 																		{ display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0;}
+input, select				 											{ vertical-align:middle;}	
+
+
+body                            {width: 100%; margin: 0; padding: 0; position: relative; font-family: 'Voltaire', sans-serif;}
+.wrap                           {width: 1200px; margin: 0 auto; padding: 0; position: relative; display: block;}
+.inline                         {width: 100%; margin: 0; padding: 0; position: relative; display: inline-block;}
+.reset                          {clear: both;}
+.h                              {height: 50px;}
+header                          {width: 100%; margin: 0; background-color: white; display: inline-block; position: relative;}
+.overmenu                       {width: 100%; margin: 0; background-color: #000; display: inline-block; position: relative; padding: 5px 0;}
+.overmenu nav                   {float: right;}
+.overmenu nav ul li             {display: inline-block;}
+.overmenu nav ul li img         {width: 50px; height: 50px;}
+header .logo                    {float: left; width: 100px; margin: -25px 0 0 0;}
+header .logo img                { width: 100%; height: auto; padding: 40px}
+nav.menup                       {float: right;}
+nav.menup ul li                 {display: inline-block; font-size: 30px; text-transform: uppercase; margin: 25px 0 0 25px; padding-bottom: 5px;}
+nav.menup ul li.active          {border-bottom: 3px solid red;}
+.banner                         { width: 100%; height: 400px; margin: 10px 0 0 0; padding: 0; position: relative; display: inline-block; background-repeat: no-repeat; background-size: cover; background-position: 0 -310px;}
+.banner .tasti                  { width: 100%; background-color: lightblue; position: absolute; bottom: 0;height: 18px;}
+.banner .tasti div div          { float: left; background: #fff; margin: -5px 10px 0 0; width: 25px; height: 21px; border-radius: 25px; border: 2px solid #ff0000; text-align: center; padding-top: 4px; color: #ff0000;}
+.banner .tasti div div.active   { background-color: #ff0000; color: #fff;}
+.banner .tasti div div:hover    { background-color: #ff0000; color: #fff;}
+.banner .arrow_left img, .banner .arrow_right img  { width: 50px; height: auto;}
+.banner .arrow_left, .banner .arrow_right { position: absolute; top: 230px;}
+.banner .arrow_left             { left: 50px;}
+.banner .arrow_right            { right: 50px;}
+.banner .description            { position: absolute; top: 100px; left: 600px; background-color: rgb(0 0 0 / 50%); padding: 60px 100px; border-radius: 10px; color: #fff; text-align: center;}
+.banner .description h1         { font-size: 50px;}
+.banner .description h2         { font-size: 20px; margin: 15px 0 60px; font-family: 'Raleway', sans-serif; font-weight: 400;}
+.banner .description a          { color: #fff; background-color: #ff0000; padding: 15px;}
+
+nav.menu_sephora                           {}
+nav.menu_sephora ul                        { font-size: 30px;}
+nav.menu_sephora ul li                     { display: inline-block; margin: 0 15px 0 0;}
+nav.menu_sephora ul li::after              { content: "/"; margin: 0 0 0 15px;}
+nav.menu_sephora ul li:last-child::after   { content: "";}
+nav.menu_sephora ul li.active              { color: red;}
+
+.nuova_collezione                            { width: 100%; position: relative; margin: 15px 0 0 0; padding: 0;}
+.nuova_collezione .novità                    { float: right; margin: 0 150px 0 0;}
+.nuova_collezione .novità img                { width: 400px; height: 400px; margin-top: 50px;}
+.nuova_collezione .novità img:last-child     { margin: 0 0 0 0;}
+.nuova_collezione .novità h1                 { margin: 10px 0; font-size: 20px;}
+.nuova_collezione .novità p                  { font-family: 'Raleway', sans-serif; font-weight: 400; margin: 0 0 10px 0; font-size: 16px;}
+.nuova_collezione .novità div                { float: left; background-color: black; color: red; padding:  5px 10px; margin-bottom: 50px;}
+.nuova_collezione .novità div:last-child     { float: right;}
+
+.kenzo                                       { width: 38%; float: left; margin: 0; padding: 0; position: relative;}
+.kenzo .immagine_kenzo                       { width: 100%; position: relative; margin: 60px 0 0 0; padding: 0;}
+.kenzo .immagine_kenzo img                   { width: 100%; height: auto;}
+.kenzo .immagine_kenzo img.loghetto          { position: absolute; top: -59px; right: -39px; width: 60px; z-index: 9;}
+.kenzo h1                                    { color: #ff0000; font-size: 32px; float: left;}
+.kenzo a                                     { float: right; background-color: #ff0000; color: #fff; padding: 15px; margin: -6px 40px 0 0;}
+.kenzo p                                     { color: black; line-height: 25px; margin: 15px 0 15px 0;}
+
+.gallery                                    { width: 60%; float: right; margin: 36px 0 0 0; padding: 0; position: relative;}
+.gallery img                                { float: right; width: 33%; height: auto; margin-bottom: 0.5%;}
+.gallery img:nth-child(3n+2)                { margin: 0 0.5% 0.5%;} 
+
+.immagine_sfondo                            { width: 100%; height: 300px; margin: 0; padding: 0; background-image: url(img/location.jpg); background-repeat: no-repeat; background-size: cover; background-position: 0 0; background-attachment: fixed; opacity: 0.7;}
+.post_home                                  { margin-top: -125px;}
+.post_home .left                            { float: left; width: 23%; position: relative; margin: 0;}
+.post_home .center                          { float: left; width: 54%; position: relative; margin: 0; padding: 0 50px; box-sizing: border-box;}
+.post_home .right                           { float: left; width: 23%; position: relative; margin: 0;}
+.single_post_home                           { width: 100%; position: relative; margin: 0; padding: 0;}
+.single_post_home img                       { width: 100%; height: auto;}
+.single_post_home h1                        { text-align: center; font-size: 18px; margin: 10px 0;}
+.single_post_home a                         { text-align: center; background-color: red; padding: 5px 10px; color: #fff; border-radius: 50px; width: 80px; display: block; margin: 0 auto;}
+.single_post_home                           { margin: 0 0 50px 0; }
+
+
+footer                                      { width: 100%; display: inline-block; position: relative; margin: 0; padding: 40px 0; background-color:red;}
+footer .logo                                { float: left; width: 300px;}
+footer .logo img                            { width: 100px; height: auto; margin: 0 0 10px 0;}
+footer .logo address                        { color: #fff; line-height: 20px; margin: 10px 0;}
+footer .logo h1                             { color: #fff; font-size: 18px;}
+footer .logo p                              { color: #fff;}
+footer .click                               {float: left; width: 300px;}
+footer .click img                           {width: 100px; height: auto; margin: 0 0 10px 0;}
+footer .click h1                            { color: #fff; font-size: 18px;}
+footer .click p                             { color: #fff;}
+footer .app                                 {float: left; width: 300px;}
+footer .app img                             {width: 100px; height: auto; margin: 0 0 10px 0;}
+footer .app h1                              { color: #fff; font-size: 18px;}
+footer .app p                               { color: #fff;}
+footer .spedizione                          {float: left; width: 300px;}
+footer .spedizione img                      {width: 100px; height: auto; margin: -25px 0 10px 0;}
+footer .spedizione h1                       { color: #fff; font-size: 18px;}
+footer .spedizione p                        { color: #fff;}
+
