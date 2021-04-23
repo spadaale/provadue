@@ -54,7 +54,7 @@ nav.menu_sephora ul                        { font-size: 30px;}
 nav.menu_sephora ul li                     { display: inline-block; margin: 0 15px 0 0;}
 nav.menu_sephora ul li::after              { content: "/"; margin: 0 0 0 15px;}
 nav.menu_sephora ul li:last-child::after   { content: "";}
-nav.menu_sephora ul li.active              { color: red;}
+nav.menu_sephora ul li.active              { color: blue;}
 
 .nuova_collezione                            { width: 100%; position: relative; margin: 15px 0 0 0; padding: 0;}
 .nuova_collezione .novità                    { float: right; margin: 0 150px 0 0;}
@@ -89,7 +89,7 @@ nav.menu_sephora ul li.active              { color: red;}
 .single_post_home                           { margin: 0 0 50px 0; }
 
 
-footer                                      { width: 100%; display: inline-block; position: relative; margin: 0; padding: 40px 0; background-color:red;}
+footer                                      { width: 100%; display: inline-block; position: relative; margin: 0; padding: 40px 0; background-color:blue;}
 footer .logo                                { float: left; width: 300px;}
 footer .logo img                            { width: 100px; height: auto; margin: 0 0 10px 0;}
 footer .logo address                        { color: #fff; line-height: 20px; margin: 10px 0;}
