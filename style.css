@@ -62,7 +62,7 @@ nav.menu_sephora ul li.active              { color: blue;}
 .nuova_collezione .novità img:last-child     { margin: 0 0 0 0;}
 .nuova_collezione .novità h1                 { margin: 10px 0; font-size: 20px;}
 .nuova_collezione .novità p                  { font-family: 'Raleway', sans-serif; font-weight: 400; margin: 0 0 10px 0; font-size: 16px;}
-.nuova_collezione .novità div                { float: left; background-color: black; color: red; padding:  5px 10px; margin-bottom: 50px;}
+.nuova_collezione .novità div                { float: left; background-color: black; color: blue; padding:  5px 10px; margin-bottom: 50px;}
 .nuova_collezione .novità div:last-child     { float: right;}
 
 .kenzo                                       { width: 38%; float: left; margin: 0; padding: 0; position: relative;}
