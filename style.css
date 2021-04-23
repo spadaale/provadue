@@ -34,7 +34,7 @@ header .logo                    {float: left; width: 100px; margin: -25px 0 0 0;
 header .logo img                { width: 100%; height: auto; padding: 40px}
 nav.menup                       {float: right;}
 nav.menup ul li                 {display: inline-block; font-size: 30px; text-transform: uppercase; margin: 25px 0 0 25px; padding-bottom: 5px;}
-nav.menup ul li.active          {border-bottom: 3px solid red;}
+nav.menup ul li.active          {border-bottom: 3px solid blue;}
 .banner                         { width: 100%; height: 400px; margin: 10px 0 0 0; padding: 0; position: relative; display: inline-block; background-repeat: no-repeat; background-size: cover; background-position: 0 -310px;}
 .banner .tasti                  { width: 100%; background-color: lightblue; position: absolute; bottom: 0;height: 18px;}
 .banner .tasti div div          { float: left; background: #fff; margin: -5px 10px 0 0; width: 25px; height: 21px; border-radius: 25px; border: 2px solid #ff0000; text-align: center; padding-top: 4px; color: #ff0000;}
@@ -54,7 +54,7 @@ nav.menu_sephora ul                        { font-size: 30px;}
 nav.menu_sephora ul li                     { display: inline-block; margin: 0 15px 0 0;}
 nav.menu_sephora ul li::after              { content: "/"; margin: 0 0 0 15px;}
 nav.menu_sephora ul li:last-child::after   { content: "";}
-nav.menu_sephora ul li.active              { color: red;}
+nav.menu_sephora ul li.active              { color: blue;}
 
 .nuova_collezione                            { width: 100%; position: relative; margin: 15px 0 0 0; padding: 0;}
 .nuova_collezione .novità                    { float: right; margin: 0 150px 0 0;}
@@ -85,11 +85,11 @@ nav.menu_sephora ul li.active              { color: red;}
 .single_post_home                           { width: 100%; position: relative; margin: 0; padding: 0;}
 .single_post_home img                       { width: 100%; height: auto;}
 .single_post_home h1                        { text-align: center; font-size: 18px; margin: 10px 0;}
-.single_post_home a                         { text-align: center; background-color: red; padding: 5px 10px; color: #fff; border-radius: 50px; width: 80px; display: block; margin: 0 auto;}
+.single_post_home a                         { text-align: center; background-color: blue; padding: 5px 10px; color: #fff; border-radius: 50px; width: 80px; display: block; margin: 0 auto;}
 .single_post_home                           { margin: 0 0 50px 0; }
 
 
-footer                                      { width: 100%; display: inline-block; position: relative; margin: 0; padding: 40px 0; background-color:red;}
+footer                                      { width: 100%; display: inline-block; position: relative; margin: 0; padding: 40px 0; background-color:blue;}
 footer .logo                                { float: left; width: 300px;}
 footer .logo img                            { width: 100px; height: auto; margin: 0 0 10px 0;}
 footer .logo address                        { color: #fff; line-height: 20px; margin: 10px 0;}
